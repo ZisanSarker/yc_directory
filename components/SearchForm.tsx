@@ -11,7 +11,6 @@ const SearchForm = ({query}:{query?:string}) => {
         defaultValue={query}
         className="search-input"
         placeholder="Search Startups"
-
       />
       <div className="flex gap-2">
         {query && <SearchFormReset/>}
